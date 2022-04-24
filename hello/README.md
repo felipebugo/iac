@@ -813,4 +813,4 @@ A infraestrutura que o Terraform pode gerenciar inclui componentes de baixo nív
 
 ## Demo do instrutor
 
-![Demo do instrutor](https://youtu.be/tP8png215tE)
+[Demo do instrutor](https://youtu.be/tP8png215tE)
