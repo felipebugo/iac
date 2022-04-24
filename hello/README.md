@@ -121,7 +121,7 @@ A infraestrutura que o Terraform pode gerenciar inclui componentes de baixo nív
 
 ## Pre-req: Clonar do GitHub o código de exemplo *hello*
 
-1. Clonar repositório [https://github.com/FIAP/iac](https://github.com/FIAP/iac).
+1. Clonar repositório https://github.com/FIAP/iac
 
    - Pelo Visual Studio Code:
     ![Clone Repository](/hello/images/clone-repository.png)
@@ -814,3 +814,4 @@ A infraestrutura que o Terraform pode gerenciar inclui componentes de baixo nív
 ## Demo do instrutor
 
 ![Vídeo de demonstração do instrutor](/hello/videos/2022-04-24 19-34-38.mp4)
+![Clone Repository](/hello/images/clone-repository.png)
