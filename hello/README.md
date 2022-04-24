@@ -174,7 +174,7 @@ A infraestrutura que o Terraform pode gerenciar inclui componentes de baixo nív
     ```
 
 
-## Planejar e Aplicar na conta AWS o código Terraform
+## Planejar e Aplicar código Terraform na conta AWS
 
 1. Inicializar o Terraform com o correspondente *provider* AWS:
 
@@ -512,7 +512,7 @@ A infraestrutura que o Terraform pode gerenciar inclui componentes de baixo nív
 5. Validar a criação dos recursos pela AWS Console.
 
 
-## Clean-up na conta AWS dos recursos criados pelo código Terraform
+## Clean-up dos recursos criados pelo código Terraform na conta AWS
 
 1. Destruir os recursos criados na conta AWS do SandBox.
 
