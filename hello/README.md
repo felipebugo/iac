@@ -811,6 +811,6 @@ A infraestrutura que o Terraform pode gerenciar inclui componentes de baixo nív
     Destroy complete! Resources: 7 destroyed.
     ```
 
-## Demo do instrutor
+## Demo do autor
 
 [Demo do instrutor](https://youtu.be/tP8png215tE)
