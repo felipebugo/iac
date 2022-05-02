@@ -29,7 +29,7 @@ resource "aws_db_instance" "rds_db_notifier" {
     identifier             = "rds-db-notifier"
     engine                 = "mysql"
     engine_version         = "8.0.23"
-    instance_class         = "db.t2.micro"
+    instance_class         = "db.t3.small"
     storage_type           = "gp2"
     allocated_storage      = "20"
     max_allocated_storage  = 0
