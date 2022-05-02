@@ -13,10 +13,10 @@ sudo systemctl enable httpd
 cat <<EOT >> /var/www/config.php
 <?php
 
-define('DB_SERVER', '${rds_endpoint}');
-define('DB_USERNAME', '${rds_user}');
-define('DB_PASSWORD', '${rds_password}');
-define('DB_DATABASE', '${rds_name}');
+define('DB_SERVER', '[replace with rds_endpoint]');
+define('DB_USERNAME', 'admin');
+define('DB_PASSWORD', 'adminpwd');
+define('DB_DATABASE', 'notifier');
 
 ?>
 EOT
