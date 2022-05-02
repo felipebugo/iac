@@ -1,3 +1,22 @@
+# SECURITY GROUP
+resource "aws_security_group" "sg_priv" {
+    name        = "sg_priv"
+    description = "Security Group private"
+    vpc_id      = aws_vpc.vpc10.id
+    
+    ingress {
+        description = "All from 10.0.0.0/16"
+        from_port   = 0
+        to_port     = 0
+        protocol    = "-1"
+        cidr_blocks = ["10.0.0.0/16"]
+    }
+
+    tags = {
+        Name = "sg_priv"
+    }
+}
+
 # DB SUBNET GROUP
 resource "aws_db_subnet_group" "rds_vpc10_sn_group" {
     name       = "rds-vpc10-sn-group"
